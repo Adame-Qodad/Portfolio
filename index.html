@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio d'Adame Qodad - Développeur Fullstack passionné par le web et les technologies modernes. Spécialisé en PHP/Symfony, JavaScript, React et MySQL." />
+  <meta name="keywords" content="développeur fullstack, PHP, Symfony, JavaScript, React, MySQL, portfolio" />
+  <meta name="author" content="Adame Qodad" />
+  <meta property="og:title" content="Adame Qodad - Portfolio Développeur Fullstack" />
+  <meta property="og:description" content="Développeur Fullstack passionné par le web et les technologies modernes" />
+  <meta property="og:type" content="website" />
+  <title>Adame Qodad – Portfolio Développeur Fullstack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+        <div class="logo">Adame Qodad</div>
+        <button class="burger" id="burger">&#9776;</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#experience">Parcours</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="theme-toggle">🌙</button></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+        <h1 id="typewriter">Bienvenue sur mon portfolio</h1>
+        <p>Je suis <strong>Adame Qodad</strong>, développeur fullstack passionné par le web et les technologies modernes.  
+        Actuellement titulaire d'un <strong>Bachelor Développeur Fullstack (RNCP niveau 6)</strong>, je conçois des interfaces dynamiques, accessibles et performantes.</p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn-primary">Me contacter</a>
+          <a href="#projects" class="btn-secondary">Voir mes projets</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Développeur curieux, rigoureux et autodidacte, j'aime concevoir des expériences utilisateur intuitives et modernes.  
+            Issu d'un <strong>BTS SIO option SLAM</strong> après un <strong>Bac STI2D spécialité SIN</strong>, j'ai poursuivi avec un Bachelor Fullstack où j'ai consolidé mes compétences en <strong>PHP (Symfony)</strong>, <strong>JavaScript</strong>, <strong>MySQL</strong>, <strong>HTML/CSS</strong> et <strong>Bootstrap</strong>.</p>
+            
+            <p>Je développe aussi bien le back-end que le front-end et je mets un point d'honneur à produire du code propre, structuré et maintenable.</p>
+            
+            <div class="personal-info">
+              <div class="info-group">
+                <h4><i class="fas fa-language"></i> Langues</h4>
+                <ul>
+                  <li><strong>Français</strong> (courant)</li>
+                  <li><strong>Anglais</strong> (B2)</li>
+                  <li><strong>Arabe</strong> (B1)</li>
+                </ul>
+              </div>
+              
+              <div class="info-group">
+                <h4><i class="fas fa-star"></i> Qualités</h4>
+                <ul>
+                  <li>Ponctuel</li>
+                  <li>Sérieux</li>
+                  <li>Autonome</li>
+                  <li>Esprit d'équipe</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Mes compétences</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Analyse et gestion de données</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-database"></i>
+                  <span>MongoDB</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 45%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-server"></i>
+                  <span>PHPMyAdmin</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-database"></i>
+                  <span>MySQL</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-project-diagram"></i>
+                  <span>UML</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-sitemap"></i>
+                  <span>Merise</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Développement Web</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML5 / CSS3</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fab fa-php"></i>
+                  <span>PHP</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fab fa-bootstrap"></i>
+                  <span>Bootstrap Framework</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-leaf"></i>
+                  <span>Symfony Framework</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fab fa-js"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-palette"></i> UX/UI</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-th-large"></i>
+                  <span>Zoning</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-vector-square"></i>
+                  <span>Wireframes</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-paint-brush"></i>
+                  <span>Maquettes</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-tasks"></i> Gestion de projet et méthodologies</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-users"></i>
+                  <span>Scrum/Agile</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fab fa-git-alt"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-language"></i> Langues</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <i class="fas fa-flag"></i>
+                  <span>Anglais (B2)</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Mes projets</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="Fichiers/StudyConnect.png" alt="StudyConnect" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/Adame-Qodad/StudyConnect" class="project-link"><i class="fab fa-github"></i></a>
+                  <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <h3>StudyConnect</h3>
+              <p>Plateforme web d'apprentissage collaboratif permettant aux étudiants de partager des ressources, créer des groupes d'étude et organiser des sessions de révision.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Symfony</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-features">
+                <h4>Fonctionnalités principales :</h4>
+                <ul>
+                  <li>Système d'authentification et gestion des rôles</li>
+                  <li>Création et gestion de groupes d'étude</li>
+                  <li>Partage de documents et ressources</li>
+                  <li>Calendrier de sessions de révision</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="Fichiers/Dokkan-dle.png" alt="Dokkan-dle" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/Adame-Qodad/Dokkan-dle" class="project-link"><i class="fab fa-github"></i></a>
+                  <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-card-content">
+              <h3>Dokkan-Dle</h3>
+              <p>Site répertoriant les personnages de Dragon Ball Z Dokkan Battle plus leurs stats et leurs leader skill</p>
+              <div class="project-tech">
+                <span class="tech-tag">Symfony</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-features">
+                <h4>Fonctionnalités principales :</h4>
+                <ul>
+                  <li>Filtre par type de personnage</li>
+                  <li>Filtre par équipe</li>
+                  <li>Interface web pour visualiser les personnages</li>
+                  <li>Mise à jour quotidienne</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>      
+
+    <section id="experience" class="section">
+        <h2>Parcours & formations</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <h3>Bachelor Développeur Fullstack</h3>
+              <p class="timeline-date">2025</p>
+              <p class="timeline-location">ENSITECH Saint-Quentin-en-Yvelines</p>
+              <p>Formation RNCP niveau 6, spécialisation JavaScript, React, Symfony. Projets pratiques et méthodologies Agile.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <h3>BTS SIO option SLAM</h3>
+              <p class="timeline-date">2024</p>
+              <p class="timeline-location">Lycée de Trappes</p>
+              <p>Développement web, PHP, base de données MySQL, projet encadré avec méthodologie de gestion de projet.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <h3>Bac STI2D spécialité SIN</h3>
+              <p class="timeline-date">2022</p>
+              <p class="timeline-location">Lycée de Trappes</p>
+              <p>Systèmes numériques, réseau, électronique embarquée. Première approche de la programmation et des systèmes informatiques.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-section">
+          <h3><i class="fas fa-briefcase"></i> Expériences professionnelles</h3>
+          <div class="experience-grid">
+            <div class="experience-card">
+              <div class="experience-header">
+                <h4>Stage – Mairie de Trappes</h4>
+                <span class="experience-date">2024</span>
+              </div>
+              <p>Développement d'un back-office web pour la gestion des services municipaux. Utilisation de Symfony, MySQL et Bootstrap.</p>
+              <div class="experience-tech">
+                <span class="tech-tag">Symfony</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="experience-card">
+              <div class="experience-header">
+                <h4>Stage – Ariis</h4>
+                <span class="experience-date">2025</span>
+              </div>
+              <p>refonte graphique du site de leur evenement : CohortInnovationDay</p>
+              <div class="experience-tech">
+                <span class="tech-tag">UI/UX</span>
+                <span class="tech-tag">Travail en équipe</span>
+                <span class="tech-tag">Figma</span>
+              </div>
+            </div>
+
+            <div class="experience-card">
+              <div class="experience-header">
+                <h4>Freelance / Projets personnels</h4>
+                <span class="experience-date">2020-2025</span>
+              </div>
+              <p>Création de portfolios, outils de scraping, sites web responsives. Développement de solutions personnalisées.</p>
+              <div class="experience-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+          <h3>Informations de contact</h3>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:adameqodad20@gmail.com">adameqodad20@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <strong>GitHub</strong>
+              <a href="https://github.com/Adame-Qodad" target="_blank">github.com/Adame-Qodad</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Localisation</strong>
+              <span>Trappes (78190), France</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-file-pdf"></i>
+            <div>
+              <strong>CV</strong>
+              <a href="Fichiers/CV-AdameQodad.pdf" download class="btn-cv">Télécharger mon CV</a>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Adame Qodad</h4>
+        <p>Développeur Fullstack passionné par les technologies web modernes</p>
+      </div>
+      <div class="footer-section">
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Réseaux sociaux</h4>
+        <div class="social-links">
+          <a href="https://github.com/Adame-Qodad" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/adame-qodad-b79485265/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Adame Qodad - Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
