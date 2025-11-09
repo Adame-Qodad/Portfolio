@@ -4,7 +4,7 @@
   --primary-color: #2563eb;
   --primary-dark: #1d4ed8;
   --secondary-color: #64748b;
-  --accent-color: #f59e0b;
+  --accent-color: #c899ef;
   
   /* Couleurs de fond */
   --bg-primary: #ffffff;
@@ -695,7 +695,7 @@ main {
 }
 
 .btn-cv:hover {
-  background-color: #d97706;
+  background-color: #c189ef;
   transform: translateY(-2px);
 }
 
